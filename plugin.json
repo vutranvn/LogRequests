@@ -1,0 +1,18 @@
+{
+	"name": "LogRequests",
+	"version": "3.0.0",
+	"description": "View log messages logged from CDN system",
+	"keywords": ["log",  "cdn", "diagnostic", "debug", "debugging"],
+	"license":  "GPL v3+",
+	"homepage":  "http://sbddigital.com",
+	"require": {
+	  "piwik": ">=3.0.0-dev,<4.0.0-dev"
+	},
+	"authors": [
+	{
+	  "name":  "Vu Tran",
+	  "email":  "vutp@saobacdau.vn",
+	  "homepage":  "http://sbddigital.com"
+	}
+  ]
+}
