@@ -20,10 +20,10 @@ use Piwik\View;
  */
 class Controller extends \Piwik\Plugin\Controller
 {
-    public function logRequests()
-    {
-	    $view = new View('@LogRequests/index');
+	public function logRequests()
+	{
+		$view = new View('@LogRequests/index');
 
-	    return $view->render();
-    }
+		return $view->render();
+	}
 }

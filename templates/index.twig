@@ -1,3 +1,14 @@
-{% block content %}
-    <div>log requests</div>
-{% endblock %}
+<input class="col s12 m5 l4" type="text" name="date-time" id="date_time" value="" />
+<input class="col s12 m5 l4" type="text" name="txt-search" id="txt_search" value="String to search" />
+
+<script type="text/javascript">
+	$(function() {
+		$('input[id="date_time"]').daterangepicker({
+			timePicker: false,
+			timePickerIncrement: 30,
+			locale: {
+				format: 'MM/DD/YYYY h:mm A'
+			}
+		});
+	});
+</script>

@@ -15,11 +15,11 @@ namespace Piwik\Plugins\LogRequests\Reports;
  */
 class LogRequests extends Base
 {
-    protected function init()
-    {
-        parent::init();
+	protected function init()
+	{
+		parent::init();
 
-        $this->subcategoryId = 'LogRequests_LogRequests';
-        $this->order = 1;
-    }
+		$this->subcategoryId = 'LogRequests_LogRequests';
+		$this->order = 1;
+	}
 }

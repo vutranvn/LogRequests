@@ -12,7 +12,7 @@ use Piwik\Category\Category;
 
 class LogRequestsCategory extends Category
 {
-    protected $id = 'LogRequests_Diagnostic';
-    protected $order = 90;
-    protected $icon = 'icon-annotation';
+	protected $id = 'LogRequests_Diagnostic';
+	protected $order = 90;
+	protected $icon = 'icon-annotation';
 }
