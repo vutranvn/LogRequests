@@ -1,14 +1,20 @@
-<input class="col s12 m5 l4" type="text" name="date-time" id="date_time" value="" />
-<input class="col s12 m5 l4" type="text" name="txt-search" id="txt_search" value="String to search" />
+<input class="col s12 m5 l4 txt-input" type="text" name="date-time" id="date_time" value="" />
+<input class="col s12 m5 l4 txt-input" type="text" name="txt-search" id="txt_search" value="" placeholder="Search..." />
 
+<button type="button" class="btn btn-default" aria-label="Search Log Requests">
+    <span class="fa fa-search"></span>
+</button>
 <script type="text/javascript">
 	$(function() {
 		$('input[id="date_time"]').daterangepicker({
 			timePicker: true,
-			timePickerIncrement: 30,
+            timePicker24Hour: true,
+			timePickerIncrement: 5,
 			locale: {
-				format: 'MM/DD/YYYY h:mm A'
+				format: 'YYYY/MM/DD hh:mm'
 			}
 		});
+
+
 	});
 </script>

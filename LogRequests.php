@@ -23,14 +23,15 @@ class LogRequests extends \Piwik\Plugin
 
     public function getStylesheetFiles(&$stylesheets)
     {
-//        $stylesheets[] = "plugins/LogRequests/libs/bootstrap.css";
-        $stylesheets[] = "plugins/LogRequests/vendors/css/font-awesome.css";
+        $stylesheets[] = "plugins/LogRequests/vendors/css/bootstrap.mod.css";
+//        $stylesheets[] = "plugins/LogRequests/vendors/css/font-awesome.css";
         $stylesheets[] = "plugins/LogRequests/vendors/css/daterangepicker.css";
         $stylesheets[] = "plugins/LogRequests/assets/style.css";
     }
 
     public function getJsFiles(&$jsFiles)
     {
+//        $jsFiles[] = "plugins/LogRequests/vendors/js/jquery-2.2.3.min.js";
         $jsFiles[] = "plugins/LogRequests/vendors/js/moment.min.js";
         $jsFiles[] = "plugins/LogRequests/vendors/js/daterangepicker.js";
         $jsFiles[] = "plugins/LogRequests/assets/log_requests.js";
